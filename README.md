@@ -7,18 +7,26 @@ This mirrors real-world identity governance and access management (IAM/IGA) scen
 
 ---
 
-## Architecture Summary 
+## Skills Learned
 - AWS Account with IAM enabled
 - IAM Users assigned to Groups
 - Custom IAM Policies written in JSON
-- Permissions scoped to EC2, S3, and CloudWatch 
+- Permissions scoped to EC2, S3, and CloudWatch
 
-## User Roles 
+# Tools Used 
+- Amazon Web Services
+- Visual Studio Code
+
+## Visulization 1: Created IAM users for each role 
+### User Roles 
 | Role | Purpose| 
 |------|--------|
 | Admin | Full access for cloud administration |
 | Developer | Limited access for application deployment | 
 | Read-Only Analyst | Visibility without modification rights | 
+
+This screenshot shows the users created in IAM. 
+![Users made](
 
 ---
 
