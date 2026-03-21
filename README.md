@@ -18,7 +18,6 @@ This mirrors real-world identity governance and access management (IAM/IGA) scen
 - Visual Studio Code
 
 ## Visulization 1: Created IAM users for each role 
- 
 
 ![Users made](awsprg1/users.png)
 | Role | Purpose| 
@@ -27,12 +26,19 @@ This mirrors real-world identity governance and access management (IAM/IGA) scen
 | Developer | Limited access for application deployment | 
 | Read-Only Analyst | Visibility without modification rights | 
 
+---
 ## Visulization 2: Created IAM groups matching role definition
 ![Groups made](awsprg1/groups.png)
 
+---
 
 ## Visulization 3: Wrote custom IAM policies using JSON 
-![Permission policy in JSON](awsprg1/readonly-policy.json)
+![Permission policy in JSON](awsprg1/readonly-policy.png)
+
+**My Insight:** Least of privleged was given to the analyst who only needs to read over the instances of EC2
+
+## Visulization 4: Validated access via login and permission testing 
+![Logging in as an Analyst on the account](awsprg1/access-test.png)
 
 ---
 
@@ -60,7 +66,6 @@ This mirrors real-world identity governance and access management (IAM/IGA) scen
 
 ---
 
-## Screenshots 
 
 
   
